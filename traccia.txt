@@ -1,0 +1,30 @@
+Creare una classe Employee con i seguenti attributi:
+- id: int (createlo autoincrementale)
+- name: String
+- efficiencyIndex: float
+- weeklyWorkingHours: int
+Implementare anche costruttore e getter per ogni attributo ed un setter per l’attributo
+“efficiencyIndex”.
+Aggiungere un metodo  “canApplyForPromotion()” che ritorna un boolean.
+Il metodo “canApplyForPromotion()” ritorna true se weeklyWorkingHours > 35 ed
+efficiencyIndex > 0.65.
+Aggiungere un metodo “mayBeDemoted()” che ritorna un boolean.
+Il metodo “mayBeDemoted()” ritorna true se e solo se weeklyWorkingHours < 10 e
+efficiencyIndex < 0.5.
+
+2) Scrivere un metodo main in una classe Main in cui si effettuano le seguenti
+operazioni:
+a) Inizializzare una lista coi seguenti oggetti Employee:
+i) Mario Gialli, 0.5, 20
+ii) Gianni Fannulloni, 0.2, 30
+iii) Giorgia Lavoroni, 0.85, 40
+b) e un'altra lista:
+i) Alessio Antichi, 0.55, 20
+ii) Marianna Figlidelcapo, 0.3, 2
+iii) Gianluigi Figlidelcapo, 0.3, 4
+c) Stampare a schermo tutti gli impiegati che potrebbero essere promossi
+d) Stampare a schermo tutti gli impiegati che potrebbero essere declassati
+e) Creare una lista di oggetti Employee unendo le due liste precedentemente
+create
+f) Stampare il nome e l’efficiencyIndex di ogni persona
+g)
